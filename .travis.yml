@@ -1,0 +1,9 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t thaint/docker-react -f Dockerfile.dev .
+
+script:
+  - docker run thaint/docker-react npm run test -- --coverage
