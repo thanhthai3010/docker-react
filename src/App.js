@@ -14,7 +14,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React! By ThaiNT Using nginx
+          Learn React! By ThaiNT Using NGinx and AWS
         </a>
       </header>
     </div>
